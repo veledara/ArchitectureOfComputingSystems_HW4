@@ -38,7 +38,7 @@ void file_container_input(void *container, int *len, FILE *input_file) {
     void *tmp = container;
     while(!feof(input_file)) {
         if (figure_input(tmp, input_file)) {
-            tmp = tmp + shapeSize;
+            tmp = tmp + shape_size;
             (*len)++;
         }
     }

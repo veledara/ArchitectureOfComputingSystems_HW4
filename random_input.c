@@ -50,7 +50,7 @@ void random_container_input(void *container, int *len, int size) {
     void *tmp = container;
     while(*len < size) {
         if(get_random_figure(tmp)) {
-            tmp = tmp + shapeSize;
+            tmp = tmp + shape_size;
             (*len)++;
         }
     }

@@ -7,12 +7,12 @@
 
 void error_message() {
     printf("Incorrect command line.\nPlease write: "
-              "[python main] -f <input_file_name> <output_file_name> <output_sorted_file_name>\n"
-              "Or: [python main] -n <number_of_figures> <output_file_name> <output_sorted_file_name>\n");
+              "./task -f <input_file_name> <output_file_name> <output_sorted_file_name>\n"
+              "Or: ./task -n <number_of_figures> <output_file_name> <output_sorted_file_name>\n");
 }
 
 int main(int argc, char* argv[]) {
-    unsigned int container[maxSize];
+    unsigned int container[max_size];
     int len = 0;
 
     if(argc != 5) {
@@ -26,7 +26,7 @@ int main(int argc, char* argv[]) {
     else if(strcmp(argv[1], "-n") == 0) {
         int number_of_figures = atoi(argv[2]);
         if((number_of_figures < 1) || (number_of_figures > 10000)) { 
-            printf("incorrect number of figures = %d. Set 0 < number <= 10000\n",
+            printf("Incorrect number of figures = %d. Set 0 < number <= 10000\n",
                    number_of_figures);
             return 3;
         }
@@ -44,26 +44,5 @@ int main(int argc, char* argv[]) {
     fprintf(output_file_name, "Filled container:\n");
     container_output(container, len, output_file_name);
     fclose(output_file_name);
-
-    // The 2nd part of task
-    FILE* output_sorted_file_name = fopen(argv[4], "w");
-    clock_t start = clock();
-    double sum = AreaAverageContainer(container, len);
-    clock_t end = clock();
-    double calcTime = ((double)(end - start)) / (CLOCKS_PER_SEC + 1.0);
-
-    fprintf(stdout, "Area average = %g\nCalculaton time = %g\n", sum, calcTime);
-    fprintf(output_sorted_file_name, "Area average = %g\nCalculaton time = %g\n", sum, calcTime);
-    len = DeleteLessAverageContainer(container, len);
-    
-    // Вывод содержимого контейнера в файл
-    fprintf(stdout, "Container after function:\n");
-    container_output(container, len, stdout);
-    fprintf(output_sorted_file_name, "Container after function:\n");
-    container_output(container, len, output_sorted_file_name);
-    fclose(output_sorted_file_name);
-
-    //ClearContainer(&c);
-    printf("Stop\n");
     return 0;
 }

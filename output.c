@@ -44,6 +44,6 @@ void container_output(void *container, int len, FILE *output_file) {
     for(int i = 0; i < len; i++) {
         fprintf(output_file, "%d: ", i+1);
         figure_output(tmp, output_file);
-        tmp = tmp + shapeSize;
+        tmp = tmp + shape_size;
     }
 }

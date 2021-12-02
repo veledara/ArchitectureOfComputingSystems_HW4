@@ -3,11 +3,8 @@
 #include <stdio.h>
 
 #define int_size sizeof(int)
-#define sphereSize 2 * sizeof(int)
-#define tetrahedronSize 2 * sizeof(int)
-#define parallelepipedSize 4 * sizeof(int)
-#define shapeSize sizeof(int) + parallelepipedSize
-#define maxSize 10000 * shapeSize
+#define shape_size 5 * sizeof(int)
+#define max_size 10000 * shape_size
 #define BALL 1
 #define PARALLELEPIPED 2
 #define TETRAHEDRON 3
