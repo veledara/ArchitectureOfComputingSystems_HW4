@@ -2,10 +2,10 @@
 #define __data__
 #include <stdio.h>
 
-#define intSize sizeof(int)
-#define sphereSize 1 * sizeof(int) + 1
-#define tetrahedronSize 1 * sizeof(int) + 1
-#define parallelepipedSize 3 * sizeof(int) + 1
+#define int_size sizeof(int)
+#define sphereSize 2 * sizeof(int)
+#define tetrahedronSize 2 * sizeof(int)
+#define parallelepipedSize 4 * sizeof(int)
 #define shapeSize sizeof(int) + parallelepipedSize
 #define maxSize 10000 * shapeSize
 #define BALL 1

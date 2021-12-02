@@ -1,7 +1,7 @@
 Filled container:
 Container contains 5 figures.
-1: Ball: density = 3.000000, radius = 19, surface area = 4536.33
-2: Ball: density = 97.000000, radius = 8, surface area = 804.224
-3: Tetrahedron: density = 84.000000, edge length = 17, surface area = 500.562
-4: Parallelepiped: density = 0.000000, first edge length = 8, second edge length = 29, third edge length = 10, surface_area = 1204
-5: Parallelepiped: density = 58.000000, first edge length = 9, second edge length = 9, third edge length = 20, surface_area = 882
+1: Tetrahedron: density = 43.000000, edge length = 5, surface area = 43.3013
+2: Tetrahedron: density = 61.000000, edge length = 14, surface area = 339.482
+3: Parallelepiped: density = 10.000000, first edge length = 5, second edge length = 23, third edge length = 1, surface_area = 286
+4: Ball: density = 18.000000, radius = 16, surface area = 3216.9
+5: Ball: density = 40.000000, radius = 18, surface area = 4071.38
