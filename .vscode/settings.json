@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "extdata.h": "c",
-        "data.h": "c"
+        "data.h": "c",
+        "stdio.h": "c"
     }
 }
