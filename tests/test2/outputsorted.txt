@@ -1,0 +1,7 @@
+Container contains 5 figures:
+Parallelepiped: density = 0.0, first edge length = 0, second edge length = 0, third edge length = 0, surface area = 0.0
+Tetrahedron: density = 8.0, edge length = 0, surface area = 0.0
+Ball: density = 2.0, radius = 0, surface area = 0.0
+Ball: density = 5.0, radius = 0, surface area = 0.0
+Parallelepiped: density = 9.0, first edge length = 0, second edge length = 0, third edge length = 0, surface area = 0.0
+Average surface area = 0.0

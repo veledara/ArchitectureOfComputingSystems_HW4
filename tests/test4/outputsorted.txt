@@ -1,0 +1,6 @@
+Container contains 4 figures:
+Parallelepiped: density = 15.0, first edge length = 6, second edge length = 7, third edge length = 8, surface area = 292.0
+Ball: density = 30.0, radius = 1, surface area = 12.566370614359172
+Ball: density = 30.0, radius = 1, surface area = 12.566370614359172
+Ball: density = 30.0, radius = 1, surface area = 12.566370614359172
+Average surface area = 82.42477796076939

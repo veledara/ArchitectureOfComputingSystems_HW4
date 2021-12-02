@@ -1,0 +1,9 @@
+Container contains 7 figures:
+Ball: density = 5.0, radius = 100, surface area = 125663.70614359173
+Tetrahedron: density = 20.0, edge length = 90, surface area = 14029.611541307906
+Ball: density = 2.0, radius = 8, surface area = 804.247719318987
+Parallelepiped: density = 3.0, first edge length = 10, second edge length = 10, third edge length = 10, surface area = 600.0
+Ball: density = 7.0, radius = 12, surface area = 1809.5573684677208
+Tetrahedron: density = 10.0, edge length = 50, surface area = 4330.127018922193
+Parallelepiped: density = 3.0, first edge length = 1, second edge length = 30, third edge length = 30, surface area = 1920.0
+Average surface area = 21308.17854165836

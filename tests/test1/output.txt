@@ -1,0 +1,7 @@
+Filled container:
+Container contains 5 figures.
+1: Ball: density = 0.000000, radius = 13, surface area = 2123.65
+2: Tetrahedron: density = 0.000000, edge length = 31, surface area = 1664.5
+3: Parallelepiped: density = 0.000000, first edge length = 18, second edge length = 27, third edge length = 8, surface_area = 1692
+4: Tetrahedron: density = 0.000000, edge length = 26, surface area = 1170.87
+5: Tetrahedron: density = 0.000000, edge length = 25, surface area = 1082.53

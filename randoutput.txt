@@ -1,0 +1,7 @@
+Filled container:
+Container contains 5 figures.
+1: Ball: density = 2.000000, radius = 11, surface area = 1520.49
+2: Parallelepiped: density = 0.000000, first edge length = 25, second edge length = 19, third edge length = 3, surface_area = 1214
+3: Ball: density = 83.000000, radius = 17, surface area = 3631.57
+4: Parallelepiped: density = 0.000000, first edge length = 14, second edge length = 4, third edge length = 27, surface_area = 1084
+5: Ball: density = 55.000000, radius = 4, surface area = 201.056

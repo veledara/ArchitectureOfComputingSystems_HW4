@@ -1,0 +1,7 @@
+Container contains 5 figures:
+Parallelepiped: density = 15.2, first edge length = 1, second edge length = 2, third edge length = 3, surface area = 22.0
+Tetrahedron: density = 40.5, edge length = 5, surface area = 43.301270189221924
+Ball: density = 20.0, radius = 7, surface area = 615.7521601035994
+Parallelepiped: density = 80.0, first edge length = 2, second edge length = 3, third edge length = 4, surface area = 52.0
+Parallelepiped: density = 5.4, first edge length = 1, second edge length = 1, third edge length = 1, surface area = 6.0
+Average surface area = 147.81068605856427

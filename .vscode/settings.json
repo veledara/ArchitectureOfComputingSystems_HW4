@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "extdata.h": "c",
+        "data.h": "c"
+    }
+}
